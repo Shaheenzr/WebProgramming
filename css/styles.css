@@ -1,0 +1,153 @@
+
+#div_container{
+  width:700px;
+  height:680px;
+  border:solid 2px red;
+  margin:auto
+}
+
+div.blocks{
+  float: left;
+}
+
+#div_1{
+  background-color:#fcf3cf;
+  height:112px;
+  position: relative;
+}
+
+#div_2{
+  background-color:#a9cce3;
+  height:33px;
+}
+
+#div_3{
+  background-color:#f39dff;
+  width:470px;
+}
+
+#div_4{
+  background-color:#0E6655;
+  width:230px;
+}
+
+#div_5{
+  background-color:hsla(37, 86%, 33%, 0.6);
+  height:67px;
+}
+
+#div_1, #div_2, #div_5{
+   width:100%;
+}
+
+#div_3, #div_4{
+  height:468px;
+}
+
+
+img.hero-img{
+   width:100%;
+   height:100%;
+}
+
+div.hero-text{
+  position: absolute;
+  color: white;
+  top: 5px;
+  left: 20px;
+  font-family: papyrus,fantasy;
+}
+
+div.intro{
+ text_align: center;
+ margin: auto;
+ padding: 10px;
+}
+
+a.intro{
+  padding-left: 55px;
+}
+
+#intro_img{
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  display: block;
+  padding-top: 5px;
+}
+
+#intro_1{
+  text-align: center;
+  color: pink;
+  font-family: Lucida Handwriting,cursive;
+}
+
+#intro_2{
+  text-align: center;
+  font-size: 16px;
+  font-family: Georgia,serif;
+  font-weight: bold;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+    padding-left: 23px;
+    font-size: 15px;
+}
+@keyframes blinkingText{
+    0%{     color: #FFD700;    }
+    49%{    color: #FFD700; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #FFD700;    }
+}
+
+p.footer{
+  text-align: center;
+  font-size: 12px;
+}
+
+table.my_table{
+      table-layout: fixed;
+      width: 100%;
+      border-spacing:1px;
+      border: 1px solid #f39dff;
+      }
+
+td.my_table{
+    padding: 1px;
+  }
+
+img.tbl_img{
+    display: block;
+    width: 90px;
+    height: 90px;
+  }
+
+ul.menu { 
+  list-style:none; 
+  margin: 0; 
+  padding: 0; 
+  background: pink; 
+  opacity: 0.5; 
+  overflow: hidden; 
+  width: 100%;
+}
+
+li.menu {
+  float: left; 
+}
+
+a.menu { 
+  text-decoration:none; 
+  display:block;
+  padding:7px; 
+  background: pink; 
+  color: purple;
+  font-size: 17px;
+}
+
+a.menu:hover {
+  background: orange; 
+}
